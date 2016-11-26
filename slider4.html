@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/slider/default.css">
+<link rel="stylesheet" href="css/slider/owl.carousel.css">
+<link rel="stylesheet" href="css/slider/owl.theme.css">
+<link rel="stylesheet" href="css/slider/owl.transitions.css">
+<style>
+    #slider .item img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+    </style>
+
+</head>
+
+<body>
+
+<div id="slider" class="owl-carousel owl-theme">
+    <div class="item"><img src="assets/healthcareplan/Slide01.jpg" alt="Slide 01"></div>
+    <div class="item"><img src="assets/healthcareplan/Slide02.jpg" alt="Slide 02"></div>
+    <div class="item"><img src="assets/healthcareplan/Slide03.jpg" alt="Slide 03"></div>
+    <div class="item"><img src="assets/healthcareplan/Slide04.jpg" alt="Slide 04"></div>
+    <div class="item"><img src="assets/healthcareplan/Slide05.jpg" alt="Slide 05"></div>
+    <div class="item"><img src="assets/healthcareplan/Slide06.jpg" alt="Slide 06"></div>
+    <div class="item"><img src="assets/healthcareplan/Slide07.jpg" alt="Slide 07"></div>
+    <div class="item"><img src="assets/healthcareplan/Slide08.jpg" alt="Slide 08"></div>
+    <div class="item"><img src="assets/healthcareplan/Slide09.jpg" alt="Slide 09"></div>
+    <div class="item"><img src="assets/healthcareplan/Slide10.jpg" alt="Slide 10"></div>
+    <div class="item"><img src="assets/healthcareplan/Slide11.jpg" alt="Slide 11"></div>
+</div>
+
+<script src="js/slider/jquery-1.10.2.min.js"></script>
+<script src="js/slider/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function() {
+
+  $("#slider").owlCarousel({
+
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+
+      // "singleItem:true" is a shortcut for:
+      // items : 1,
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+
+  });
+
+});
+</script>
+
+</body>
+
+</html>
